@@ -1,0 +1,32 @@
+{
+  "name": "VerySimple.js",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "build-prod": "node build.js minify"
+  },
+  "keywords": [
+    "javascript framework",
+    "component",
+    "model",
+    "view",
+    "template"
+  ],
+  "author": "Vasyl Klochko",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^6.0.88",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.3.2",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "connect": "^3.6.6",
+    "copyfiles": "^2.0.0",
+    "serve-static": "^1.13.2",
+    "tsify": "^4.0.0",
+    "uglifyify": "^5.0.1",
+    "watchify": "^3.11.0"
+  }
+}
